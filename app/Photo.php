@@ -137,7 +137,10 @@ class Photo extends Model
 			$photoName = $this->url;
 		}
 		$photoName2x = explode('.', $photoName);
-		$photoName2x = $photoName2x[0].'@2x.'.$photoName2x[1];
+		if(count($photoName2x) < 2)
+			dd($photo);
+		else
+			$photoName2x = $photoName2x[0].'@2x.'.$photoName2x[1];
 
 		// Parse medium
 		if ($this->medium != '') {
