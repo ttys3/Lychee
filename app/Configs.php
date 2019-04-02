@@ -98,7 +98,10 @@ class Configs extends Model
 	 */
 	public static function set(string $key, $value)
 	{
-
+		//fixup @TODO find the bug
+		if ($key == '/api/Settings::saveAll') {
+			return true;
+		}
 		$config = Configs::where('key', '=', $key)->first();
 		$config->value = $value;
 		if (!$config->save()) {
@@ -122,7 +125,8 @@ class Configs extends Model
 		if ((bool) (extension_loaded('imagick') && self::get_value('imagick', '1') == '1')) {
 			return true;
 		}
-		Logs::notice(__METHOD__, __LINE__, "hasImagick : false");
+		//this call will cause composer install failure (artisan package:discover will fail, because no DB config now)
+		//Logs::notice(__METHOD__, __LINE__, "hasImagick : false");
 		return false;
 	}
 
