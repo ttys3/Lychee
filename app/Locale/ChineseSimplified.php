@@ -331,8 +331,8 @@ final class ChineseSimplified
 			'UPLOAD_ABSOLUTE_PATH'		=> '绝对路径',
 			'UPLOAD_IMPORT_SERVER_EMPT'	=> '无法导入空文件夹！',
 
-			'ABOUT_SUBTITLE'			=> 'Self-hosted photo-management done right',
-			'ABOUT_DESCRIPTION'			=> 'is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.',
+			'ABOUT_SUBTITLE'			=> '自托管照片管理程序 Mod by 荒野無燈 for Nano Disk Manager',
+			'ABOUT_DESCRIPTION'			=> '是一个开源的照片管理工具，可以在您的服务器或网络空间运行。 安装只需几秒钟。 上传，管理和共享照片就像从本地应用程序操作一样。 Lychee配有您需要的一切，您的所有照片都安全地存储。此版本由荒野無燈修改用于Nano Disk Manager。',
 			'FOOTER_COPYRIGHT'			=> '本网站上的所有图像均受版权所有',
 		);
 

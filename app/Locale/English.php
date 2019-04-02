@@ -329,8 +329,8 @@ final class English
 			'UPLOAD_ABSOLUTE_PATH'		=> 'Absolute path to directory',
 			'UPLOAD_IMPORT_SERVER_EMPT'	=> 'Could not start import because the folder was empty!',
 
-			'ABOUT_SUBTITLE'			=> 'Self-hosted photo-management done right',
-			'ABOUT_DESCRIPTION'			=> 'is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.',
+			'ABOUT_SUBTITLE'			=> 'Self-hosted photo-management Mod by 荒野無燈 for Nano Disk Manager',
+			'ABOUT_DESCRIPTION'			=> 'is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely. This special version was Mod by 荒野無燈 for Nano Disk Manager',
 			'FOOTER_COPYRIGHT'			=> 'All images on this website are subject to Copyright by '
 		);
 
