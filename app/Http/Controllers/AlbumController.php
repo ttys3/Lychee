@@ -329,6 +329,7 @@ class AlbumController extends Controller
 	 */
 	function delete(Request $request)
 	{
+		return false; //4demo
 		$request->validate([
 			'albumIDs' => 'string|required',
 		]);

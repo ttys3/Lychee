@@ -27,7 +27,7 @@ class UserController extends Controller
 
 	public function save(Request $request)
 	{
-
+		return false; //4demo
 		$request->validate([
 			'id'       => 'required',
 			'username' => 'required|string|max:100',
@@ -55,7 +55,7 @@ class UserController extends Controller
 
 	public function delete(Request $request)
 	{
-
+		return false; //4demo
 		$request->validate([
 			'id' => 'required'
 		]);

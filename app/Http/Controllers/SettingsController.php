@@ -18,6 +18,7 @@ class SettingsController extends Controller
 {
 	public function setLogin(Request $request)
 	{
+		return false; //4demo
 		$request->validate([
 			'username' => 'required|string',
 			'password' => 'required|string'
@@ -241,7 +242,7 @@ class SettingsController extends Controller
 
 	public function saveAll(Request $request)
 	{
-
+		return false; //4demo
 		$no_error = true;
 		foreach ($request->except('_token') as $key => $value) {
 			if ($key != 'function') {

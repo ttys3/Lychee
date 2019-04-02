@@ -328,7 +328,7 @@ class PhotoController extends Controller
 	 */
 	function delete(Request $request)
 	{
-
+		return false; //4demo
 		$request->validate([
 			'photoIDs' => 'required|string',
 		]);
