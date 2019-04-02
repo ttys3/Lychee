@@ -19,14 +19,14 @@ class AddLandingPage extends Migration
 
 		    DB::table('configs')->insert([
 			    ['key' => 'landing_page_enable', 'value' => '0'],
-			    ['key' => 'landing_owner', 'value' => 'John Smith'],
-			    ['key' => 'landing_title', 'value' => 'John Smith'],
+			    ['key' => 'landing_owner', 'value' => '荒野無燈'],
+			    ['key' => 'landing_title', 'value' => '荒野無燈的相册'],
 			    ['key' => 'landing_subtitle', 'value' => 'Cat, Dogs & Humans Photography'],
-			    ['key' => 'landing_facebook', 'value' => 'https://www.facebook.com/JohnSmith'],
-			    ['key' => 'landing_flickr', 'value' => 'https://www.flickr.com/JohnSmith'],
-			    ['key' => 'landing_twitter', 'value' => 'https://www.twitter.com/JohnSmith'],
-			    ['key' => 'landing_instagram', 'value' => 'https://instagram.com/JohnSmith'],
-			    ['key' => 'landing_youtube', 'value' => 'https://www.youtube.com/JohnSmith'],
+			    ['key' => 'landing_facebook', 'value' => 'http://nanodm.net'],
+			    ['key' => 'landing_flickr', 'value' => 'http://nanodm.net'],
+			    ['key' => 'landing_twitter', 'value' => 'http://nanodm.net'],
+			    ['key' => 'landing_instagram', 'value' => 'http://nanodm.net'],
+			    ['key' => 'landing_youtube', 'value' => 'http://nanodm.net'],
 			    ['key' => 'landing_background', 'value' => 'dist/cat.jpg'],
 		    ]);
 	    }
